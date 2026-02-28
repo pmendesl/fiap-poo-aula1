@@ -4,7 +4,7 @@ O que o Objeto Representa?
 
 A classe `Conta` representa uma conta bancária no mundo real. Ela encapsula os dados essenciais de uma conta (agência, número, CPF do titular e saldo) e as operações que podem ser realizadas sobre ela, como sacar, depositar e consultar o saldo.
 
-## Estrutura da Classe `Conta`
+# Estrutura da Classe `Conta`
 
 A classe possui os seguintes atributos:
 
@@ -18,7 +18,7 @@ Como Usar os Métodos
 
 Para interagir com um objeto `Conta`, você pode usar os seguintes métodos:
 
-### `void depositar(double valor)`
+# `void depositar(double valor)`
 
 Este método adiciona um valor ao saldo da conta.
 
@@ -32,7 +32,7 @@ minhaConta.saldo = 100.0;
 minhaConta.depositar(50.0); // Saldo agora é 150.0
 ```
 
-### `void sacar(double valor)`
+# `void sacar(double valor)`
 
 Este método retira um valor do saldo da conta.
 
@@ -50,7 +50,7 @@ minhaConta.sacar(30.0); // Saldo agora é 120.0
 minhaConta.sacar(200.0); // Exibe "Saldo insuficiente."
 ```
 
-### `void exibirSaldo()`
+# `void exibirSaldo()`
 
 Este método imprime no console o saldo atual da conta formatado em uma mensagem amigável.
 
@@ -63,5 +63,5 @@ minhaConta.exibirSaldo();
 Como Executar o Projeto
 
 1.  Clone o repositório.
-2.  Abra o projeto em sua IDE Java preferida (Eclipse, IntelliJ, VS Code).
+2.  Abra o projeto em sua IDE Java (VS Code).
 3.  Execute o arquivo `src/Main.java`. O console mostrará os resultados dos testes de depósito e saque.
